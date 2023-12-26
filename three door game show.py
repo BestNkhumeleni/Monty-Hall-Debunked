@@ -10,7 +10,7 @@ contestant = random.randrange(0, 3)
 counter = 0
 
 # Simulate the Monty Hall problem for a million iterations
-for i in range(10000000):
+for i in range(1000000):
     # Host (dealer) opens a door with a goat that was not chosen by the contestant
     doors_with_goats = [door for door in range(
         3) if door != contestant and door != dealer]
